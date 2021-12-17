@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5101065981063320471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5043572776206043176}
+  - component: {fileID: 6867180988714571692}
+  m_Layer: 0
+  m_Name: a_human_cigarette
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5043572776206043176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5101065981063320471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6867180988714571692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5101065981063320471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 263
+  variationName: a_human_cigarette
+  characterType: 6
+  accessoryInfo:
+    name: HumanCigarette
+    displayName: cigarette
+    layerName: a_human_cigarette
+    accessoryType: 10
+    characterType: 6
+    layer: 27
+  animationLayer: {fileID: 2821723978126996154, guid: ad1d292285cb5f34f9b751a9f7daab4b,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    to:
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4280449015
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  layerData: {fileID: 11400000, guid: e51415082e8a807468ef69d9b07c6a71, type: 2}
+  originalFrame: {fileID: 21300000, guid: 151f664d3d916ce458ede008533232a8, type: 3}

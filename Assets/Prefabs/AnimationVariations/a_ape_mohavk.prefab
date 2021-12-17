@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8601518596681574654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3712828305216018766}
+  - component: {fileID: 1615132378061047996}
+  m_Layer: 0
+  m_Name: a_ape_mohavk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3712828305216018766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8601518596681574654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1615132378061047996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8601518596681574654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 197
+  variationName: a_ape_mohavk
+  characterType: 2
+  accessoryInfo:
+    name: ApeMohavk
+    displayName: mohavk
+    layerName: a_ape_mohavk
+    accessoryType: 6
+    characterType: 2
+    layer: 34
+  animationLayer: {fileID: 408387401898924120, guid: 8064e27796b69a74694e852926d0de22,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    to:
+    - serializedVersion: 2
+      rgba: 4282943806
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4282943806
+  originalColors:
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  layerData: {fileID: 11400000, guid: dcd3f1a5f94b1cc45a3d6ce802270c05, type: 2}
+  originalFrame: {fileID: 21300000, guid: 184c33c53bc52ad418792caeb0c47e8d, type: 3}

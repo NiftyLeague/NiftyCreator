@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2401436799394169918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037337820245671591}
+  - component: {fileID: 7119153693972834755}
+  m_Layer: 0
+  m_Name: a_alien_pacifier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037337820245671591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2401436799394169918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7119153693972834755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2401436799394169918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 269
+  variationName: a_alien_pacifier
+  characterType: 1
+  accessoryInfo:
+    name: AlienPacifier
+    displayName: pacifier
+    layerName: a_alien_pacifier
+    accessoryType: 10
+    characterType: 1
+    layer: 26
+  animationLayer: {fileID: 6328154303778261240, guid: 131c6f817cb62244ba55244ed9d452cf,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4282943806
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4280449015
+  - serializedVersion: 2
+    rgba: 4282943806
+  - serializedVersion: 2
+    rgba: 4281642750
+  - serializedVersion: 2
+    rgba: 4283287395
+  originalColors:
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  layerData: {fileID: 11400000, guid: 765eb2f3c4f06f94eb06fecae4059798, type: 2}
+  originalFrame: {fileID: 21300000, guid: 286372c76a155d2488546d12c41c4cdf, type: 3}

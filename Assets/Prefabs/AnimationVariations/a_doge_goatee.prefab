@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3253750691532786053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2638929542640055659}
+  - component: {fileID: 7514142586136417842}
+  m_Layer: 0
+  m_Name: a_doge_goatee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2638929542640055659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3253750691532786053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7514142586136417842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3253750691532786053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 291
+  variationName: a_doge_goatee
+  characterType: 4
+  accessoryInfo:
+    name: DogeGoatee
+    displayName: goatee
+    layerName: a_doge_goatee
+    accessoryType: 1
+    characterType: 4
+    layer: 41
+  animationLayer: {fileID: 6819790044684262092, guid: 54227e4e8f819764cac1e6f019589e5d,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4289385706
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4285703908
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4281941619
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281941619
+  originalColors:
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  layerData: {fileID: 11400000, guid: fa07981036dbb0246b91affb64aee98a, type: 2}
+  originalFrame: {fileID: 21300000, guid: 00e4e70a867fbcb4cbab7d8a79d3f9c5, type: 3}

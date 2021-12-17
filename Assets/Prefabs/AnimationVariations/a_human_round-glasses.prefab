@@ -1,0 +1,287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4646421677916214552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7008840989419073185}
+  - component: {fileID: 5645965525276038525}
+  m_Layer: 0
+  m_Name: a_human_round-glasses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7008840989419073185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4646421677916214552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5645965525276038525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4646421677916214552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 782
+  variationName: a_human_round-glasses
+  characterType: 6
+  accessoryInfo:
+    name: HumanRoundGlasses
+    displayName: round glasses
+    layerName: a_human_round-glasses
+    accessoryType: 4
+    characterType: 6
+    layer: 15
+  animationLayer: {fileID: 4661298502615177189, guid: 3773553458a855c469d409be2bec10f9,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4285282408
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4283461560
+    - serializedVersion: 2
+      rgba: 4281411390
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4287188498
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4285282408
+  - serializedVersion: 2
+    rgba: 4287123637
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  layerData: {fileID: 11400000, guid: c0c66df268457fc4bb9334c82cec6e38, type: 2}
+  originalFrame: {fileID: 21300000, guid: 0dedd62b65791b24987889d4e755ee31, type: 3}

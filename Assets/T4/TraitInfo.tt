@@ -1,0 +1,249 @@
+<#@ template debug="false" hostspecific="true" language="C#v3.5" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Net" #>
+
+<#@ output extension=".cs" #>
+<# 
+	var traits = ParseTraits(System.IO.File.ReadAllText(this.Host.ResolvePath("./data/Traits.json")));
+	var displayNames = ParseTraits(System.IO.File.ReadAllText(this.Host.ResolvePath("./data/TraitNames.json")));
+	var ranges = ParseTraitRanges(System.IO.File.ReadAllText(this.Host.ResolvePath("./data/TraitRanges.json")));
+	var characters = new string[] { "Ape", "Human", "Doge", "Frog", "Cat", "Alien" };
+#>
+using UnityEngine;
+using System.Linq;
+using System.Collections.Generic;
+
+public static class TraitInfo
+{
+	public static readonly Trait EmptyTrait = new Trait(0, "Empty");
+
+	public static readonly Dictionary<int, Trait> traits = new Dictionary<int, Trait>() {
+		{ 0,  EmptyTrait },
+<# 
+var traitMap = new Dictionary<int, Trait>();
+foreach(var t in traits)
+{
+	traitMap.Add(t.id, t);
+#>
+		{ <#=t.id#>, new Trait(<#=t.id#>, "<#=t.name#>") },
+<#}#>
+	};
+
+	public static readonly Dictionary<AccessoryType, Dictionary<int, Trait>> accessoryTraits = new Dictionary<AccessoryType, Dictionary<int, Trait>>
+	{
+<#
+foreach(var type in ranges.Keys )
+{
+	if(Array.IndexOf(characters, type) >= 0) continue;
+#>
+		{ AccessoryType.<#=type#>, new Dictionary<int, Trait>() {
+<#
+	foreach(var t in ranges[type] )
+	{
+#>
+			{ <#=t#>, new Trait(<#=t#>, "<#=traitMap[t].name#>") },
+<#	}#>
+		} },
+<#}#>
+	};
+
+	public static readonly Dictionary<AccessoryType, Dictionary<string, int>> accessoryTraitNameMap = new Dictionary<AccessoryType, Dictionary<string, int>>
+	{
+<#
+foreach(var type in ranges.Keys )
+{
+	if(Array.IndexOf(characters, type) >= 0) continue;
+#>
+		{ AccessoryType.<#=type#>, new Dictionary<string, int>() {
+<#
+	foreach(var t in ranges[type] )
+	{
+#>
+			{ "<#=traitMap[t].name#>", <#=t#> },
+<#	}#>
+		} },
+<#}#>
+	};
+
+	public static readonly Dictionary<CharacterType, Dictionary<int, Trait>> characterTraits = new Dictionary<CharacterType, Dictionary<int, Trait>>
+	{
+<#
+foreach(var c in characters )
+{
+#>
+		{ CharacterType.<#=c#>, new Dictionary<int, Trait>() {
+<#
+	foreach(var t in ranges[c] )
+	{
+#>
+			{ <#=t#>, new Trait(<#=t#>, "<#=traitMap[t].name#>") },
+<#	}#>
+		} },
+<#}#>
+	};
+
+	public static readonly Dictionary<CharacterType, Dictionary<string, int>> characterTraitNameMap = new Dictionary<CharacterType, Dictionary<string, int>>
+	{
+<#
+foreach(var c in characters )
+{
+#>
+		{ CharacterType.<#=c#>, new Dictionary<string, int>() {
+<#
+	foreach(var t in ranges[c] )
+	{
+#>
+			{ "<#=traitMap[t].name#>", <#=t#> },
+<#	}#>
+		} },
+<#}#>
+	};
+
+	public static readonly Dictionary<string, string> displayNameMap = new Dictionary<string, string>() {
+		{ "empty", "Empty" },
+<# 
+foreach(var t in displayNames)
+{
+#>
+		{ "<#=traitMap[t.id].name.ToLower()#>", "<#=t.name#>" },
+<#}#>
+	};
+
+	public static Trait GetTrait(CharacterType characterType, string name)
+	{
+		try
+		{
+			return traits[characterTraitNameMap[characterType][name]];
+		}
+		catch (KeyNotFoundException)
+		{
+			Debug.LogError($"Trait '{name}' for character '{characterType}' not found. Defaulting to EmptyTrait");
+		}
+		return EmptyTrait;
+	}
+
+	public static Trait GetTrait(AccessoryType accessoryType, string name)
+	{
+		try
+		{
+			return traits[accessoryTraitNameMap[accessoryType][name]];
+		}
+		catch (KeyNotFoundException)
+		{
+			Debug.LogError($"Trait '{name}' for accessory '{accessoryType}' not found. Defaulting to EmptyTrait");
+		}
+		return EmptyTrait;
+	}
+
+	public static Trait GetRandomTrait(CharacterType characterType, AccessoryType accessoryType, HashSet<Trait> removedTraits)
+	{
+		int[] characterTraits = characterTraitNameMap[characterType].Values.ToArray();
+		int[] accessoryTraits = accessoryTraitNameMap[accessoryType].Values.ToArray();
+		int[] intersection = accessoryTraits.Intersect(characterTraits).ToArray();
+		int randomTraitId = XRandom.NextMember(intersection);
+		if (randomTraitId > 0 && !removedTraits.Any(t => t.id == randomTraitId))
+		{
+			return traits[randomTraitId];
+		}
+		return EmptyTrait;
+	}
+
+	public static Trait GetRandomTrait(CharacterType characterType, string nonAccessoryTraitName, HashSet<Trait> removedTraits)
+	{
+		string characterTypeName = AnimationManager.GetCharacterString(characterType);
+		Dictionary<int, Trait> traits = characterTraits[characterType];
+
+		KeyValuePair<int, Trait>[] traitPool;
+		switch (nonAccessoryTraitName)
+		{
+		case CustomizationManager.Names.SkinColor:
+			traitPool = traits.Where(e => e.Value.name.EndsWith($" {characterTypeName}")).ToArray();
+			break;
+		case CustomizationManager.Names.FurColor:
+			traitPool = traits.Where(e => e.Value.name.EndsWith($" {characterTypeName} Fur")).ToArray();
+			break;
+		case CustomizationManager.Names.EyeColor:
+			traitPool = traits.Where(e => e.Value.name.EndsWith(" Eyes")).ToArray();
+			break;
+		case CustomizationManager.Names.PupilColor:
+			traitPool = traits.Where(e => e.Value.name.EndsWith($" Pupils")).ToArray();
+			break;
+		default:
+			return EmptyTrait;
+		}
+		traitPool = traitPool.Where(e => !removedTraits.Contains(e.Value)).ToArray();
+		return XRandom.NextMember(traitPool).Value;
+	}
+}
+
+[System.Serializable]
+public struct Trait
+{
+	public int id;
+	public string name;
+
+	public Trait(int id, string name)
+	{
+		this.id = id;
+		this.name = name;
+	}
+}
+<#+
+private List<Trait> ParseTraits(string content)
+{
+	var traits = new List<Trait>();
+	var lines = Array.ConvertAll(content.Split(new[] {'\r', '\n'}, StringSplitOptions.RemoveEmptyEntries), l => l.Trim());
+	
+	foreach(var line in lines)
+	{
+		if (!char.IsDigit(line[0]))
+		{
+			continue;
+		}
+		string[] tokens = line.Split(':');
+		string name = tokens[1].Trim().Replace("\"", "").Replace(",", "");
+		traits.Add(new Trait(int.Parse(tokens[0]), name));
+	}
+    return traits;
+}
+
+private Dictionary<string, List<int>> ParseTraitRanges(string content)
+{
+	var ranges = new Dictionary<string, List<int>>();
+	var lines = Array.ConvertAll(content.Split(new[] {'\r', '\n'}, StringSplitOptions.RemoveEmptyEntries), l => l.Trim());
+	
+	foreach(var line in lines)
+	{
+		if (line.StartsWith("{") || line.StartsWith("}") || line.StartsWith("//"))
+		{
+			continue;
+		}
+		string[] tokens = line.Split(':');
+		string name = tokens[0].Trim().Replace("\"", "");
+		string list = tokens[1].Replace("[", "").Replace("]", "");
+		List<int> traits = new List<int>();
+		foreach(var t in list.Split(','))
+		{
+			if(t.Length > 0)
+			{
+				traits.Add(int.Parse(t));
+			}
+		}
+		ranges.Add(name, traits);
+	}
+    return ranges;
+}
+
+private struct Trait
+{
+	public readonly int id;
+	public readonly string name;
+
+	public Trait(int id, string name)
+	{
+		this.id = id;
+		this.name = name;
+	}
+}
+#>

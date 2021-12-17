@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7041115719580205168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5091398766970833399}
+  - component: {fileID: 6506905941924649859}
+  m_Layer: 0
+  m_Name: a_ape_hoop_earring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5091398766970833399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041115719580205168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6506905941924649859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7041115719580205168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 804
+  variationName: a_ape_hoop_earring
+  characterType: 2
+  accessoryInfo:
+    name: ApeHoopEarring
+    displayName: hoop earring
+    layerName: a_ape_hoop_earring
+    accessoryType: 13
+    characterType: 2
+    layer: 46
+  animationLayer: {fileID: 996497787710799907, guid: 34cb6be82ef366f4b9a97347b4bc48c3,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4284892218
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281642750
+  - serializedVersion: 2
+    rgba: 4284606462
+  originalColors:
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  layerData: {fileID: 11400000, guid: 24622a8289921444080cad4d10bfa40d, type: 2}
+  originalFrame: {fileID: 21300000, guid: 3fb1c52e12036ea46823e7d9541cc26b, type: 3}

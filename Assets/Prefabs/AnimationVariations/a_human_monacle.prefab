@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1515596061338668442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8636308997058454082}
+  - component: {fileID: 4767032286903717144}
+  m_Layer: 0
+  m_Name: a_human_monacle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8636308997058454082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515596061338668442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4767032286903717144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515596061338668442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 763
+  variationName: a_human_monacle
+  characterType: 6
+  accessoryInfo:
+    name: HumanMonacle
+    displayName: monacle
+    layerName: a_human_monacle
+    accessoryType: 4
+    characterType: 6
+    layer: 15
+  animationLayer: {fileID: 4661298502615177189, guid: 3773553458a855c469d409be2bec10f9,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  layerData: {fileID: 11400000, guid: fd58753dd1f4c134d80c71ce459f78a9, type: 2}
+  originalFrame: {fileID: 21300000, guid: c7cd1e4ad2a9e6149a6e5a36042b0589, type: 3}

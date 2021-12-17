@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8088753897594146637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4614009772237855686}
+  - component: {fileID: 6945933386029637499}
+  m_Layer: 0
+  m_Name: a_cat_sunglasses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4614009772237855686
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8088753897594146637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6945933386029637499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8088753897594146637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 792
+  variationName: a_cat_sunglasses
+  characterType: 3
+  accessoryInfo:
+    name: CatSunglasses
+    displayName: sunglasses
+    layerName: a_cat_sunglasses
+    accessoryType: 4
+    characterType: 3
+    layer: 18
+  animationLayer: {fileID: 3747207368380062185, guid: 926bbb585cb5a1f449e37bd7c6242c31,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4285282408
+    - serializedVersion: 2
+      rgba: 4287123637
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4281411390
+    - serializedVersion: 2
+      rgba: 4289385706
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 16
+    swapIndex: 78
+    color:
+      serializedVersion: 2
+      rgba: 4287188498
+    name: Baleine Blue
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4287188498
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 16
+    swapIndex: 78
+    color:
+      serializedVersion: 2
+      rgba: 4287188498
+    name: Baleine Blue
+  layerData: {fileID: 11400000, guid: e6c0a3094d6b17143b1e42d97b50ea0e, type: 2}
+  originalFrame: {fileID: 21300000, guid: a28ecb1dc1519a94caddc7baea5bc6cc, type: 3}

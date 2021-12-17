@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4722168688472488461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4570724215736972390}
+  - component: {fileID: 1752215893444432263}
+  m_Layer: 0
+  m_Name: a_share_right-item_sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4570724215736972390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4722168688472488461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1752215893444432263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4722168688472488461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 1016
+  variationName: a_share_right-item_sword
+  characterType: 0
+  accessoryInfo:
+    name: ShareRightItemSword
+    displayName: right item sword
+    layerName: a_share_right-item_sword
+    accessoryType: 15
+    characterType: 0
+    layer: 12
+  animationLayer: {fileID: 2215853002290716580, guid: ebe642ad8a2d86841ba1236da079a2b5,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4287129946
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  palleteColors: []
+  colors: []
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  layerData: {fileID: 11400000, guid: 8c22624ef7761d943b62f287f0ac2c83, type: 2}
+  originalFrame: {fileID: 21300000, guid: bc890066660f742468b0f789178eb3f9, type: 3}

@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &871354208773800497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678708822715230922}
+  - component: {fileID: 4223242151578101172}
+  m_Layer: 0
+  m_Name: b_frog_head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &678708822715230922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871354208773800497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4223242151578101172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871354208773800497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 0
+  variationName: b_frog_head
+  characterType: 5
+  accessoryInfo:
+    name: 
+    displayName: 
+    layerName: 
+    accessoryType: 0
+    characterType: 0
+    layer: 0
+  animationLayer: {fileID: 5786000418471591626, guid: 92463a1de3c7d4b4d82c6abb6d154f92,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4285282408
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4287129946
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4286215670
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4282943806
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4283287395
+  originalColors:
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  layerData: {fileID: 11400000, guid: 6f256d1ecd65359459efe9687e9f0d46, type: 2}
+  originalFrame: {fileID: 21300000, guid: ce7c40d40d80048408f4af4cdb1ccfda, type: 3}

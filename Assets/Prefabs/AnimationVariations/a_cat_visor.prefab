@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8188434846661473473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270157260609096888}
+  - component: {fileID: 577042749005096303}
+  m_Layer: 0
+  m_Name: a_cat_visor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &270157260609096888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188434846661473473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &577042749005096303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8188434846661473473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 796
+  variationName: a_cat_visor
+  characterType: 3
+  accessoryInfo:
+    name: CatVisor
+    displayName: visor
+    layerName: a_cat_visor
+    accessoryType: 4
+    characterType: 3
+    layer: 18
+  animationLayer: {fileID: 3747207368380062185, guid: 926bbb585cb5a1f449e37bd7c6242c31,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4282646783
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4284892218
+  - serializedVersion: 2
+    rgba: 4287129946
+  - serializedVersion: 2
+    rgba: 4280449015
+  - serializedVersion: 2
+    rgba: 4290026379
+  - serializedVersion: 2
+    rgba: 4281642750
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  layerData: {fileID: 11400000, guid: 4f03a0e5529aa2f45b22ebd49f3815b7, type: 2}
+  originalFrame: {fileID: 21300000, guid: b2d0d1755987d5443b2e7b7028f055ce, type: 3}

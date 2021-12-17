@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9047286167714921311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2443335785154811324}
+  - component: {fileID: 860503155974612013}
+  m_Layer: 0
+  m_Name: a_share_left-item_trumpet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2443335785154811324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047286167714921311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &860503155974612013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9047286167714921311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 964
+  variationName: a_share_left-item_trumpet
+  characterType: 0
+  accessoryInfo:
+    name: ShareLeftItemTrumpet
+    displayName: left item trumpet
+    layerName: a_share_left-item_trumpet
+    accessoryType: 9
+    characterType: 0
+    layer: 11
+  animationLayer: {fileID: 2151022326798842710, guid: 746d8cc26268d644a96364441e0c301e,
+    type: 3}
+  colorVariations: []
+  palleteColors: []
+  colors: []
+  originalColors: []
+  layerData: {fileID: 11400000, guid: cd45d19a0e5b2cf4baf6c8cb2ba0c1be, type: 2}
+  originalFrame: {fileID: 21300000, guid: 3df6d1fdb0daa9a4ea134471c410ebba, type: 3}

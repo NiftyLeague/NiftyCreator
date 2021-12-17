@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2609523775474077954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9028479268226537708}
+  - component: {fileID: 3394181362872844439}
+  m_Layer: 0
+  m_Name: a_share_boxers_striped
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9028479268226537708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2609523775474077954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3394181362872844439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2609523775474077954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 571
+  variationName: a_share_boxers_striped
+  characterType: 0
+  accessoryInfo:
+    name: ShareBoxersStriped
+    displayName: boxers striped
+    layerName: a_share_boxers_striped
+    accessoryType: 3
+    characterType: 0
+    layer: 61
+  animationLayer: {fileID: 9010349224978466343, guid: 379bb17423f37474cbaf8d792f60ceee,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+    - serializedVersion: 2
+      rgba: 4282657574
+  palleteColors:
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4292581632
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  layerData: {fileID: 11400000, guid: c267d9754b7b3f944bd5f8efd882c0e4, type: 2}
+  originalFrame: {fileID: 21300000, guid: 0931dc25d54e20e4d91081e06f37e102, type: 3}

@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2468004955381461248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9161389044671611821}
+  - component: {fileID: 3082508025751913118}
+  m_Layer: 0
+  m_Name: a_share_basic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9161389044671611821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468004955381461248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3082508025751913118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468004955381461248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 695
+  variationName: a_share_basic
+  characterType: 0
+  accessoryInfo:
+    name: ShareBasic
+    displayName: basic
+    layerName: a_share_basic
+    accessoryType: 2
+    characterType: 0
+    layer: 60
+  animationLayer: {fileID: 3188489958166778919, guid: 901c0348ed549604198936aa5619679a,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4281941619
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4288067560
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4282268697
+    - serializedVersion: 2
+      rgba: 4292660160
+  palleteColors:
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  colors:
+  - serializedVersion: 2
+    rgba: 4281941619
+  - serializedVersion: 2
+    rgba: 4284606462
+  originalColors:
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  layerData: {fileID: 11400000, guid: 1340807bd12ec564480a318d1fc5851d, type: 2}
+  originalFrame: {fileID: 21300000, guid: 232f17be84fcc9d4cbe3eeef753fa08a, type: 3}

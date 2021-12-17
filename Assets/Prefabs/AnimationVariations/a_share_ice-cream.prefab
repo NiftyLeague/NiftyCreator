@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3166343337563928731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6121546230819858073}
+  - component: {fileID: 4005884336729398301}
+  m_Layer: 0
+  m_Name: a_share_ice-cream
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6121546230819858073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3166343337563928731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4005884336729398301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3166343337563928731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 539
+  variationName: a_share_ice-cream
+  characterType: 0
+  accessoryInfo:
+    name: ShareIceCream
+    displayName: ice cream
+    layerName: a_share_ice-cream
+    accessoryType: 14
+    characterType: 0
+    layer: 57
+  animationLayer: {fileID: 3271996236422129518, guid: 528552e43ccad894b8b4eba9dba4eee6,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    to:
+    - serializedVersion: 2
+      rgba: 4282661860
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4282943806
+    - serializedVersion: 2
+      rgba: 4282539046
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4294305836
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4289385706
+    - serializedVersion: 2
+      rgba: 4285703908
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  - index: 8
+    swapIndex: 59
+    color:
+      serializedVersion: 2
+      rgba: 4282661860
+    name: Vermilion Cinnabar
+  - index: 14
+    swapIndex: 92
+    color:
+      serializedVersion: 2
+      rgba: 4282539046
+    name: Greenbriar
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281542306
+  - serializedVersion: 2
+    rgba: 4282661860
+  - serializedVersion: 2
+    rgba: 4282539046
+  - serializedVersion: 2
+    rgba: 4280449015
+  - serializedVersion: 2
+    rgba: 4282943806
+  - serializedVersion: 2
+    rgba: 4281642750
+  - serializedVersion: 2
+    rgba: 4292660160
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 8
+    swapIndex: 59
+    color:
+      serializedVersion: 2
+      rgba: 4282661860
+    name: Vermilion Cinnabar
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 14
+    swapIndex: 92
+    color:
+      serializedVersion: 2
+      rgba: 4282539046
+    name: Greenbriar
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  layerData: {fileID: 11400000, guid: 671071983d3f824478c4a3bb6510f98e, type: 2}
+  originalFrame: {fileID: 21300000, guid: a08d38604893abe4d8ec44cc7a4b6b41, type: 3}

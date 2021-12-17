@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6468349047374144260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5403332301845968345}
+  - component: {fileID: 5645789372800169353}
+  m_Layer: 0
+  m_Name: b_doge_eyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5403332301845968345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468349047374144260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5645789372800169353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468349047374144260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 0
+  variationName: b_doge_eyes
+  characterType: 4
+  accessoryInfo:
+    name: 
+    displayName: 
+    layerName: 
+    accessoryType: 0
+    characterType: 0
+    layer: 0
+  animationLayer: {fileID: 7201360273374538228, guid: 9b6bfbe2da284ee41adbca01c26ac92f,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4281542306
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  layerData: {fileID: 11400000, guid: 7883d8b4d210f134a9c5cd1a6c768c0d, type: 2}
+  originalFrame: {fileID: 21300000, guid: f539b0331bf191141bece65dfb2dea75, type: 3}

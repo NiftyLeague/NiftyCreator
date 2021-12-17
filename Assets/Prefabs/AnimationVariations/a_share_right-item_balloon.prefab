@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &935967585485482098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5854202810634026210}
+  - component: {fileID: 2250466595205926684}
+  m_Layer: 0
+  m_Name: a_share_right-item_balloon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5854202810634026210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935967585485482098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2250466595205926684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935967585485482098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 979
+  variationName: a_share_right-item_balloon
+  characterType: 0
+  accessoryInfo:
+    name: ShareRightItemBalloon
+    displayName: right item balloon
+    layerName: a_share_right-item_balloon
+    accessoryType: 15
+    characterType: 0
+    layer: 12
+  animationLayer: {fileID: 2215853002290716580, guid: ebe642ad8a2d86841ba1236da079a2b5,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4283287395
+    - serializedVersion: 2
+      rgba: 4282943806
+    - serializedVersion: 2
+      rgba: 4282539046
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4294305836
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4281542306
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 14
+      swapIndex: 92
+      color:
+        serializedVersion: 2
+        rgba: 4282539046
+      name: Greenbriar
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4282657574
+  palleteColors: []
+  colors: []
+  originalColors:
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 14
+    swapIndex: 92
+    color:
+      serializedVersion: 2
+      rgba: 4282539046
+    name: Greenbriar
+  layerData: {fileID: 11400000, guid: e6ecd3d86d72404498c5e25729d7f20c, type: 2}
+  originalFrame: {fileID: 21300000, guid: 097bf03cc14e4aa4c8661b295989f8b3, type: 3}

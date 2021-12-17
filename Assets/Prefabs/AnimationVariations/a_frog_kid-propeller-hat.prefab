@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3079238081779657525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6685459690136502869}
+  - component: {fileID: 3584428054738319890}
+  m_Layer: 0
+  m_Name: a_frog_kid-propeller-hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6685459690136502869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079238081779657525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3584428054738319890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079238081779657525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 737
+  variationName: a_frog_kid-propeller-hat
+  characterType: 5
+  accessoryInfo:
+    name: FrogKidPropellerHat
+    displayName: kid propeller hat
+    layerName: a_frog_kid-propeller-hat
+    accessoryType: 8
+    characterType: 5
+    layer: 19
+  animationLayer: {fileID: 4598645322024302966, guid: b919aa336c52a9245a8ac45b5e8510bf,
+    type: 3}
+  colorVariations: []
+  palleteColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  colors:
+  - serializedVersion: 2
+    rgba: 4282646783
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4282943806
+  - serializedVersion: 2
+    rgba: 4292581632
+  - serializedVersion: 2
+    rgba: 4281642750
+  - serializedVersion: 2
+    rgba: 4292660160
+  originalColors: []
+  layerData: {fileID: 11400000, guid: b458d3534a950104482e753d30386bc5, type: 2}
+  originalFrame: {fileID: 21300000, guid: 4f00d8ce554ee4d4c89d2ee0700c9d8b, type: 3}

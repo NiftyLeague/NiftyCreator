@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &355011178601158900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8607500078428151901}
+  - component: {fileID: 7844870087583117712}
+  m_Layer: 0
+  m_Name: a_cat_baseball-cap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8607500078428151901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355011178601158900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7844870087583117712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355011178601158900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 707
+  variationName: a_cat_baseball-cap
+  characterType: 3
+  accessoryInfo:
+    name: CatBaseballCap
+    displayName: baseball cap
+    layerName: a_cat_baseball-cap
+    accessoryType: 8
+    characterType: 3
+    layer: 24
+  animationLayer: {fileID: 1643700168707738802, guid: 32e3e8db428fec44bbf34a8a99ecb768,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4290026379
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4282268697
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4286215670
+  palleteColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  colors:
+  - serializedVersion: 2
+    rgba: 4282646783
+  - serializedVersion: 2
+    rgba: 4280620056
+  originalColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  layerData: {fileID: 11400000, guid: 17712c042efcd9a49875d5e1e8f8fa68, type: 2}
+  originalFrame: {fileID: 21300000, guid: 6a2b1e54251362f47962630cb80c10dd, type: 3}

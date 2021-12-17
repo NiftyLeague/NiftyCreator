@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4952233524170794656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7640801861103368258}
+  - component: {fileID: 5798127013287229252}
+  m_Layer: 0
+  m_Name: b_human_eyes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7640801861103368258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952233524170794656}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5798127013287229252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952233524170794656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 0
+  variationName: b_human_eyes
+  characterType: 6
+  accessoryInfo:
+    name: 
+    displayName: 
+    layerName: 
+    accessoryType: 0
+    characterType: 0
+    layer: 0
+  animationLayer: {fileID: 7201360273374538228, guid: 9b6bfbe2da284ee41adbca01c26ac92f,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4280620056
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4294305836
+    - serializedVersion: 2
+      rgba: 4281542306
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4285282408
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  layerData: {fileID: 11400000, guid: eb92414e3f309024680ed8432cbce95d, type: 2}
+  originalFrame: {fileID: 21300000, guid: 7dbe2336d9e94354686b8717c5bc2d5b, type: 3}

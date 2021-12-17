@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5260912329264003404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3098917829860832959}
+  - component: {fileID: 3006766658776934586}
+  m_Layer: 0
+  m_Name: a_human_fish-hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3098917829860832959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260912329264003404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3006766658776934586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260912329264003404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 732
+  variationName: a_human_fish-hat
+  characterType: 6
+  accessoryInfo:
+    name: HumanFishHat
+    displayName: fish hat
+    layerName: a_human_fish-hat
+    accessoryType: 8
+    characterType: 6
+    layer: 21
+  animationLayer: {fileID: 3206133455992358943, guid: e1ff767bc7b88664e90754278e16ed3d,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287188498
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 16
+    swapIndex: 78
+    color:
+      serializedVersion: 2
+      rgba: 4287188498
+    name: Baleine Blue
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4287188498
+  - serializedVersion: 2
+    rgba: 4292581632
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 16
+    swapIndex: 78
+    color:
+      serializedVersion: 2
+      rgba: 4287188498
+    name: Baleine Blue
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  layerData: {fileID: 11400000, guid: 366ab93d415024e4d86f7ea1a8869772, type: 2}
+  originalFrame: {fileID: 21300000, guid: efb684b1c4070a848b85a25f342c75c1, type: 3}

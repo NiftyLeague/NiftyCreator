@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3819275539534569202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6223063073813610641}
+  - component: {fileID: 5397479790534744229}
+  m_Layer: 0
+  m_Name: a_share_jorts_frayed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6223063073813610641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3819275539534569202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5397479790534744229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3819275539534569202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 614
+  variationName: a_share_jorts_frayed
+  characterType: 0
+  accessoryInfo:
+    name: ShareJortsFrayed
+    displayName: jorts frayed
+    layerName: a_share_jorts_frayed
+    accessoryType: 3
+    characterType: 0
+    layer: 61
+  animationLayer: {fileID: 9010349224978466343, guid: 379bb17423f37474cbaf8d792f60ceee,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4282268697
+  - from:
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 16
+      swapIndex: 78
+      color:
+        serializedVersion: 2
+        rgba: 4287188498
+      name: Baleine Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4285105602
+  palleteColors:
+  - index: 16
+    swapIndex: 78
+    color:
+      serializedVersion: 2
+      rgba: 4287188498
+    name: Baleine Blue
+  colors:
+  - serializedVersion: 2
+    rgba: 4287188498
+  originalColors:
+  - index: 16
+    swapIndex: 78
+    color:
+      serializedVersion: 2
+      rgba: 4287188498
+    name: Baleine Blue
+  layerData: {fileID: 11400000, guid: 65a149002ea624443997375393fd0798, type: 2}
+  originalFrame: {fileID: 21300000, guid: 49163795e059e2943a6fab7365f3171e, type: 3}

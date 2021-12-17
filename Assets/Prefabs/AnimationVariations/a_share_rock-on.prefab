@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5275709444083595561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3508324070046083666}
+  - component: {fileID: 1253235204173499955}
+  m_Layer: 0
+  m_Name: a_share_rock-on
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3508324070046083666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5275709444083595561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1253235204173499955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5275709444083595561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 549
+  variationName: a_share_rock-on
+  characterType: 0
+  accessoryInfo:
+    name: ShareRockOn
+    displayName: rock on
+    layerName: a_share_rock-on
+    accessoryType: 14
+    characterType: 0
+    layer: 57
+  animationLayer: {fileID: 3271996236422129518, guid: 528552e43ccad894b8b4eba9dba4eee6,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    - index: 4
+      swapIndex: 111
+      color:
+        serializedVersion: 2
+        rgba: 4283461560
+      name: Iced Tea
+    to:
+    - serializedVersion: 2
+      rgba: 4288067560
+    - serializedVersion: 2
+      rgba: 4281941619
+    - serializedVersion: 2
+      rgba: 4285105602
+  palleteColors:
+  - index: 6
+    swapIndex: 39
+    color:
+      serializedVersion: 2
+      rgba: 4281411390
+    name: Toledo
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  - index: 4
+    swapIndex: 111
+    color:
+      serializedVersion: 2
+      rgba: 4283461560
+    name: Iced Tea
+  - index: 3
+    swapIndex: 166
+    color:
+      serializedVersion: 2
+      rgba: 4285703908
+    name: Sweet Curry
+  colors:
+  - serializedVersion: 2
+    rgba: 4281411390
+  - serializedVersion: 2
+    rgba: 4281941619
+  - serializedVersion: 2
+    rgba: 4283461560
+  - serializedVersion: 2
+    rgba: 4285703908
+  originalColors:
+  - index: 3
+    swapIndex: 166
+    color:
+      serializedVersion: 2
+      rgba: 4285703908
+    name: Sweet Curry
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  - index: 4
+    swapIndex: 111
+    color:
+      serializedVersion: 2
+      rgba: 4283461560
+    name: Iced Tea
+  layerData: {fileID: 11400000, guid: bf1f0784ddc74904a80aebf1963e02bf, type: 2}
+  originalFrame: {fileID: 21300000, guid: 0840bcca7ddea7b458a1e7e1bd7af2b6, type: 3}

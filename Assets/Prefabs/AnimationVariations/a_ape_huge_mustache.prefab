@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3722254855656763084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 445572884112076561}
+  - component: {fileID: 1443404173711187633}
+  m_Layer: 0
+  m_Name: a_ape_huge_mustache
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &445572884112076561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722254855656763084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1443404173711187633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3722254855656763084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 312
+  variationName: a_ape_huge_mustache
+  characterType: 2
+  accessoryInfo:
+    name: ApeHugeMustache
+    displayName: huge mustache
+    layerName: a_ape_huge_mustache
+    accessoryType: 1
+    characterType: 2
+    layer: 40
+  animationLayer: {fileID: 8016931741441155651, guid: 7d939d9f41048cb44861e34260de4280,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4289385706
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4285703908
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4281941619
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 5
+      swapIndex: 62
+      color:
+        serializedVersion: 2
+        rgba: 4281941619
+      name: Single Origin
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281941619
+  originalColors:
+  - index: 5
+    swapIndex: 62
+    color:
+      serializedVersion: 2
+      rgba: 4281941619
+    name: Single Origin
+  layerData: {fileID: 11400000, guid: efae84c01a2c05148992196c19bdacb4, type: 2}
+  originalFrame: {fileID: 21300000, guid: 049cac5efb980b74998ceb6dcceb3414, type: 3}

@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4216938149762490288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3068462920844383151}
+  - component: {fileID: 8459932246814910925}
+  m_Layer: 0
+  m_Name: a_share_left-item_bowling-ball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3068462920844383151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4216938149762490288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8459932246814910925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4216938149762490288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 901
+  variationName: a_share_left-item_bowling-ball
+  characterType: 0
+  accessoryInfo:
+    name: ShareLeftItemBowlingBall
+    displayName: left item bowling ball
+    layerName: a_share_left-item_bowling-ball
+    accessoryType: 9
+    characterType: 0
+    layer: 11
+  animationLayer: {fileID: 2151022326798842710, guid: 746d8cc26268d644a96364441e0c301e,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4281542306
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4280449015
+  palleteColors: []
+  colors: []
+  originalColors:
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  layerData: {fileID: 11400000, guid: a72985002360f4c40992fa1f1592ef0f, type: 2}
+  originalFrame: {fileID: 21300000, guid: 0ac1c08e1094d7f46b648f3519cd7935, type: 3}

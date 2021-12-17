@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1244515926042224180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6252032006770900280}
+  - component: {fileID: 9028025286581568817}
+  m_Layer: 0
+  m_Name: a_cat_vape
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6252032006770900280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244515926042224180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9028025286581568817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244515926042224180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 274
+  variationName: a_cat_vape
+  characterType: 3
+  accessoryInfo:
+    name: CatVape
+    displayName: vape
+    layerName: a_cat_vape
+    accessoryType: 10
+    characterType: 3
+    layer: 30
+  animationLayer: {fileID: 1128967078487993742, guid: 82d7b566aafc1ab4681f4cc5cc9741b8,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4282943806
+    - serializedVersion: 2
+      rgba: 4283287395
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4294305836
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4286215670
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4292660160
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4284892218
+  - serializedVersion: 2
+    rgba: 4287129946
+  - serializedVersion: 2
+    rgba: 4282943806
+  - serializedVersion: 2
+    rgba: 4281642750
+  - serializedVersion: 2
+    rgba: 4283287395
+  - serializedVersion: 2
+    rgba: 4284606462
+  originalColors:
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  layerData: {fileID: 11400000, guid: 82c14bf7440c69048ba9299a13393dbc, type: 2}
+  originalFrame: {fileID: 21300000, guid: 2a0d7e723cf5a25499ccb6462264d642, type: 3}

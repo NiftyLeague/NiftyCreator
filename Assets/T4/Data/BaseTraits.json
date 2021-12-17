@@ -1,0 +1,39 @@
+// v90
+{
+	0: "Empty",
+	// Tribes
+	1: "Ape",
+	2: "Human",
+	3: "Doge",
+	4: "Frog",
+	5: "Cat",
+	6: "Alien",
+	// Skin Colors
+	// Ape
+	10: "Single Origin Ape",
+	// Human
+	22: "Gentle Doe Human",
+	// Doge
+	29: "Ripe Pumpkin Doge",
+	// Frog
+	37: "Range Land Frog",
+	// Cat
+	48: "Icy Brook Cat",
+	// Alien
+	59: "Range Land Alien",
+	// Secondary Skin Colors
+	// Ape
+	70: "Sweet Curry Ape Fur",
+	// Human
+	// Doge
+	82: "White Doge Fur",
+	// Frog
+	// Cat
+	90: "White Cat Fur",
+	// Alien
+	// Eye Colors
+	101: "White Eyes",
+	// Secondary Eye Colors
+	110: "River Styx Pupils"
+  }
+  

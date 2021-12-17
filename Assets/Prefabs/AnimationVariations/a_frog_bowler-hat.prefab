@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5927055120311194741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8470203832843301679}
+  - component: {fileID: 2077639494464639311}
+  m_Layer: 0
+  m_Name: a_frog_bowler-hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8470203832843301679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927055120311194741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2077639494464639311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5927055120311194741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 719
+  variationName: a_frog_bowler-hat
+  characterType: 5
+  accessoryInfo:
+    name: FrogBowlerHat
+    displayName: bowler hat
+    layerName: a_frog_bowler-hat
+    accessoryType: 8
+    characterType: 5
+    layer: 19
+  animationLayer: {fileID: 4598645322024302966, guid: b919aa336c52a9245a8ac45b5e8510bf,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4285282408
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282268697
+    - serializedVersion: 2
+      rgba: 4282539046
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4282661860
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4282657574
+  - serializedVersion: 2
+    rgba: 4284892218
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  layerData: {fileID: 11400000, guid: 5accc84f9e7b63440abb3672ad43e72c, type: 2}
+  originalFrame: {fileID: 21300000, guid: 90cd6671f4683184aa68a8f2cb3cbf8f, type: 3}

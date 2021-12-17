@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3100209809712321757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3607013638042199782}
+  - component: {fileID: 1810979131157589865}
+  m_Layer: 0
+  m_Name: a_alien_top-hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3607013638042199782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100209809712321757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810979131157589865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3100209809712321757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 747
+  variationName: a_alien_top-hat
+  characterType: 1
+  accessoryInfo:
+    name: AlienTopHat
+    displayName: top hat
+    layerName: a_alien_top-hat
+    accessoryType: 8
+    characterType: 1
+    layer: 20
+  animationLayer: {fileID: 6501354551598798558, guid: e1e76333631b07a4394e22d175d18ad6,
+    type: 3}
+  colorVariations: []
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4284892218
+  - serializedVersion: 2
+    rgba: 4287129946
+  originalColors: []
+  layerData: {fileID: 11400000, guid: 8a79d0d81cb22e846ac67fa4d4410bb0, type: 2}
+  originalFrame: {fileID: 21300000, guid: 293fedd2eb07eaa4e800cb55bacf01b6, type: 3}

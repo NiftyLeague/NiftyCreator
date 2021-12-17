@@ -1,0 +1,1489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccf793b7ca1cc645b9cd36d753b8e3c, type: 3}
+  m_Name: GraphAPI
+  m_EditorClassIdentifier: 
+  url: https://api.studio.thegraph.com/query/1645/nifty-league/1.0.0
+  queries:
+  - name: GetCharacters
+    type: 0
+    query: "query GetCharacters{\n    owner(  id :\"0x6ac131d20eec5d396030cb6d8b3fd34476e74c78\"
+      ){\n        id\n        address\n        characters{\n            id\n           
+      tokenId\n            traits{\n                tribe\n                skinColor\n               
+      furColor\n                eyeColor\n                pupilColor\n               
+      hair\n                mouth\n                beard\n                top\n               
+      outerwear\n                print\n                bottom\n                footwear\n               
+      belt\n                hat\n                eyewear\n                piercings\n               
+      wrists\n                hands\n                neckwear\n                leftItem\n               
+      rightItem\n            }\n        }\n    }\n}"
+    queryString: owner
+    returnType: Owner
+    queryOptions:
+    - contract
+    - contracts
+    - character
+    - characters
+    - traitMap
+    - traitMaps
+    - owner
+    - owners
+    - _meta
+    fields:
+    - index: 1
+      name: address
+      type: Bytes
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: address
+        type: Bytes
+      - name: createdAt
+        type: BigInt
+      - name: characters
+        type: Character
+      - name: characterCount
+        type: Int
+      hasChanged: 0
+    - index: 3
+      name: characters
+      type: Character
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: ID
+      - name: address
+        type: Bytes
+      - name: createdAt
+        type: BigInt
+      - name: characters
+        type: Character
+      - name: characterCount
+        type: Int
+      hasChanged: 0
+    - index: 0
+      name: id
+      type: ID
+      parentIndexes: 02000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: owner
+        type: Owner
+      - name: name
+        type: String
+      - name: nameHistory
+        type: String
+      - name: createdAt
+        type: BigInt
+      - name: transactionHash
+        type: String
+      - name: traits
+        type: TraitMap
+      hasChanged: 0
+    - index: 1
+      name: tokenId
+      type: BigInt
+      parentIndexes: 02000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: owner
+        type: Owner
+      - name: name
+        type: String
+      - name: nameHistory
+        type: String
+      - name: createdAt
+        type: BigInt
+      - name: transactionHash
+        type: String
+      - name: traits
+        type: TraitMap
+      hasChanged: 0
+    - index: 7
+      name: traits
+      type: TraitMap
+      parentIndexes: 02000000
+      hasSubField: 1
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: owner
+        type: Owner
+      - name: name
+        type: String
+      - name: nameHistory
+        type: String
+      - name: createdAt
+        type: BigInt
+      - name: transactionHash
+        type: String
+      - name: traits
+        type: TraitMap
+      hasChanged: 0
+    - index: 3
+      name: tribe
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 4
+      name: skinColor
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 5
+      name: furColor
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 6
+      name: eyeColor
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 7
+      name: pupilColor
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 8
+      name: hair
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 9
+      name: mouth
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 10
+      name: beard
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 13
+      name: top
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 14
+      name: outerwear
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 15
+      name: print
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 16
+      name: bottom
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 17
+      name: footwear
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 18
+      name: belt
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 19
+      name: hat
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 20
+      name: eyewear
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 21
+      name: piercings
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 22
+      name: wrists
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 23
+      name: hands
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 24
+      name: neckwear
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 25
+      name: leftItem
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    - index: 26
+      name: rightItem
+      type: Int
+      parentIndexes: 0200000005000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: ID
+      - name: tokenId
+        type: BigInt
+      - name: character
+        type: Character
+      - name: tribe
+        type: Int
+      - name: skinColor
+        type: Int
+      - name: furColor
+        type: Int
+      - name: eyeColor
+        type: Int
+      - name: pupilColor
+        type: Int
+      - name: hair
+        type: Int
+      - name: mouth
+        type: Int
+      - name: beard
+        type: Int
+      - name: facemark
+        type: Int
+      - name: misc
+        type: Int
+      - name: top
+        type: Int
+      - name: outerwear
+        type: Int
+      - name: print
+        type: Int
+      - name: bottom
+        type: Int
+      - name: footwear
+        type: Int
+      - name: belt
+        type: Int
+      - name: hat
+        type: Int
+      - name: eyewear
+        type: Int
+      - name: piercings
+        type: Int
+      - name: wrists
+        type: Int
+      - name: hands
+        type: Int
+      - name: neckwear
+        type: Int
+      - name: leftItem
+        type: Int
+      - name: rightItem
+        type: Int
+      hasChanged: 0
+    isComplete: 0
+  mutations: []
+  subscriptions: []
+  loading: 0

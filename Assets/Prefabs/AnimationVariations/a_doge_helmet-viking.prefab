@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6169851277355753950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2891397414183211967}
+  - component: {fileID: 2940959954624052970}
+  m_Layer: 0
+  m_Name: a_doge_helmet-viking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2891397414183211967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169851277355753950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2940959954624052970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6169851277355753950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 735
+  variationName: a_doge_helmet-viking
+  characterType: 4
+  accessoryInfo:
+    name: DogeHelmetViking
+    displayName: helmet viking
+    layerName: a_doge_helmet-viking
+    accessoryType: 8
+    characterType: 4
+    layer: 23
+  animationLayer: {fileID: 8586523839032929359, guid: 211416541f590c042a843348927b1211,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 9
+      swapIndex: 119
+      color:
+        serializedVersion: 2
+        rgba: 4280449015
+      name: Ornery Tangerine
+    - index: 10
+      swapIndex: 174
+      color:
+        serializedVersion: 2
+        rgba: 4281642750
+      name: Ripe Pumpkin
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281542306
+  - serializedVersion: 2
+    rgba: 4280449015
+  - serializedVersion: 2
+    rgba: 4281642750
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  - index: 9
+    swapIndex: 119
+    color:
+      serializedVersion: 2
+      rgba: 4280449015
+    name: Ornery Tangerine
+  - index: 10
+    swapIndex: 174
+    color:
+      serializedVersion: 2
+      rgba: 4281642750
+    name: Ripe Pumpkin
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  layerData: {fileID: 11400000, guid: a5e3c0f1a1614234693e94a4cc229df0, type: 2}
+  originalFrame: {fileID: 21300000, guid: 2cc77ca41bf51f642b2edc999f8fb3f9, type: 3}

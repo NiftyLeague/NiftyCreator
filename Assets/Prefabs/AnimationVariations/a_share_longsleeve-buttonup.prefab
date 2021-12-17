@@ -1,0 +1,391 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8029517686334255810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7471868435909861725}
+  - component: {fileID: 2429512807997380240}
+  m_Layer: 0
+  m_Name: a_share_longsleeve-buttonup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7471868435909861725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029517686334255810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2429512807997380240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8029517686334255810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 373
+  variationName: a_share_longsleeve-buttonup
+  characterType: 0
+  accessoryInfo:
+    name: ShareLongsleeveButtonup
+    displayName: longsleeve buttonup
+    layerName: a_share_longsleeve-buttonup
+    accessoryType: 16
+    characterType: 0
+    layer: 58
+  animationLayer: {fileID: 6198675876344023450, guid: 62c4c75a7910e734ba87aa13d93674ba,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4290026379
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4287188498
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4282943806
+    - serializedVersion: 2
+      rgba: 4282539046
+    - serializedVersion: 2
+      rgba: 4282268697
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4285282408
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+    - serializedVersion: 2
+      rgba: 4285282408
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4282661860
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4285105602
+    - serializedVersion: 2
+      rgba: 4288067560
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4280620056
+  palleteColors:
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4290026379
+  - serializedVersion: 2
+    rgba: 4292660160
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  layerData: {fileID: 11400000, guid: a0e58554250d74243bb8d5d26b997c70, type: 2}
+  originalFrame: {fileID: 21300000, guid: 862c07dd78590b2478c1350b9b1f26bd, type: 3}

@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6365509092167335906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6383670989257207005}
+  - component: {fileID: 2538369025466362500}
+  m_Layer: 0
+  m_Name: a_ape_cyborg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6383670989257207005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365509092167335906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2538369025466362500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6365509092167335906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 756
+  variationName: a_ape_cyborg
+  characterType: 2
+  accessoryInfo:
+    name: ApeCyborg
+    displayName: cyborg
+    layerName: a_ape_cyborg
+    accessoryType: 4
+    characterType: 2
+    layer: 16
+  animationLayer: {fileID: 1260714868896801795, guid: d84a3f634942c1c4b9121055de25b8d7,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    - index: 23
+      swapIndex: 68
+      color:
+        serializedVersion: 2
+        rgba: 4284892218
+      name: Bonne Nuit
+    - index: 22
+      swapIndex: 105
+      color:
+        serializedVersion: 2
+        rgba: 4287129946
+      name: Allegiance
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4282646783
+  palleteColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  colors:
+  - serializedVersion: 2
+    rgba: 4282646783
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4282657574
+  - serializedVersion: 2
+    rgba: 4284892218
+  - serializedVersion: 2
+    rgba: 4287129946
+  - serializedVersion: 2
+    rgba: 4290026379
+  - serializedVersion: 2
+    rgba: 4292660160
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  - index: 23
+    swapIndex: 68
+    color:
+      serializedVersion: 2
+      rgba: 4284892218
+    name: Bonne Nuit
+  - index: 22
+    swapIndex: 105
+    color:
+      serializedVersion: 2
+      rgba: 4287129946
+    name: Allegiance
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  layerData: {fileID: 11400000, guid: 89c13034575e9294e8303efd48586098, type: 2}
+  originalFrame: {fileID: 21300000, guid: f2d1046a35d09c948ba26f1168ae0c47, type: 3}

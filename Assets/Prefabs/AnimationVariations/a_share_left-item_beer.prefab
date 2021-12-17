@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7496312599535622760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5336830374983938205}
+  - component: {fileID: 7910656444218491796}
+  m_Layer: 0
+  m_Name: a_share_left-item_beer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5336830374983938205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496312599535622760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7910656444218491796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7496312599535622760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 895
+  variationName: a_share_left-item_beer
+  characterType: 0
+  accessoryInfo:
+    name: ShareLeftItemBeer
+    displayName: left item beer
+    layerName: a_share_left-item_beer
+    accessoryType: 9
+    characterType: 0
+    layer: 11
+  animationLayer: {fileID: 2151022326798842710, guid: 746d8cc26268d644a96364441e0c301e,
+    type: 3}
+  colorVariations: []
+  palleteColors: []
+  colors: []
+  originalColors: []
+  layerData: {fileID: 11400000, guid: 0def1b1c58e8a3f40bde2a29718afaeb, type: 2}
+  originalFrame: {fileID: 21300000, guid: 08b90d5bf917ad14899fefe2baad86b2, type: 3}

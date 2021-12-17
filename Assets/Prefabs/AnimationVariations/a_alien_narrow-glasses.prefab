@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4091652150095228521
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5106928856746881189}
+  - component: {fileID: 3754437808972955975}
+  m_Layer: 0
+  m_Name: a_alien_narrow-glasses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5106928856746881189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4091652150095228521}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3754437808972955975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4091652150095228521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 765
+  variationName: a_alien_narrow-glasses
+  characterType: 1
+  accessoryInfo:
+    name: AlienNarrowGlasses
+    displayName: narrow glasses
+    layerName: a_alien_narrow-glasses
+    accessoryType: 4
+    characterType: 1
+    layer: 14
+  animationLayer: {fileID: 4934346754041437769, guid: 7dc245cad9c68354386c8f328f015aee,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4287123637
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4282661860
+    - serializedVersion: 2
+      rgba: 4282661860
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 29
+    swapIndex: 117
+    color:
+      serializedVersion: 2
+      rgba: 4286215670
+    name: Begonia
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4286215670
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 29
+    swapIndex: 117
+    color:
+      serializedVersion: 2
+      rgba: 4286215670
+    name: Begonia
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  layerData: {fileID: 11400000, guid: a6e9f3df9a270674f8aad3e26e89d84b, type: 2}
+  originalFrame: {fileID: 21300000, guid: 854d3f91d70f20249b0ce867240ee329, type: 3}

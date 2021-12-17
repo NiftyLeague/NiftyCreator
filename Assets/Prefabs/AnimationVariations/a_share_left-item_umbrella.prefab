@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6822113107027748593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6861851786159404014}
+  - component: {fileID: 3598174280138554323}
+  m_Layer: 0
+  m_Name: a_share_left-item_umbrella
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6861851786159404014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822113107027748593}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3598174280138554323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6822113107027748593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 965
+  variationName: a_share_left-item_umbrella
+  characterType: 0
+  accessoryInfo:
+    name: ShareLeftItemUmbrella
+    displayName: left item umbrella
+    layerName: a_share_left-item_umbrella
+    accessoryType: 9
+    characterType: 0
+    layer: 11
+  animationLayer: {fileID: 2151022326798842710, guid: 746d8cc26268d644a96364441e0c301e,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4286215670
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4285282408
+  - from:
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4294305836
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 29
+      swapIndex: 117
+      color:
+        serializedVersion: 2
+        rgba: 4286215670
+      name: Begonia
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    to:
+    - serializedVersion: 2
+      rgba: 4286215670
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4281542306
+  palleteColors: []
+  colors: []
+  originalColors:
+  - index: 29
+    swapIndex: 117
+    color:
+      serializedVersion: 2
+      rgba: 4286215670
+    name: Begonia
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  layerData: {fileID: 11400000, guid: 1ddb2a242fa499349bef6703456886e1, type: 2}
+  originalFrame: {fileID: 21300000, guid: 42ce4c5739b65bc4abd560a9bb301b13, type: 3}

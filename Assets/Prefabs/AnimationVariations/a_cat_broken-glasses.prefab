@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4042543169136559860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4862777100549263394}
+  - component: {fileID: 3690209517444355125}
+  m_Layer: 0
+  m_Name: a_cat_broken-glasses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4862777100549263394
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042543169136559860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3690209517444355125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4042543169136559860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 750
+  variationName: a_cat_broken-glasses
+  characterType: 3
+  accessoryInfo:
+    name: CatBrokenGlasses
+    displayName: broken glasses
+    layerName: a_cat_broken-glasses
+    accessoryType: 4
+    characterType: 3
+    layer: 18
+  animationLayer: {fileID: 3747207368380062185, guid: 926bbb585cb5a1f449e37bd7c6242c31,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4285282408
+    - serializedVersion: 2
+      rgba: 4287123637
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287188498
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4280449015
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282539046
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4290026379
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 27
+      swapIndex: 56
+      color:
+        serializedVersion: 2
+        rgba: 4285282408
+      name: Seance
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4282646783
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4285282408
+  - serializedVersion: 2
+    rgba: 4287123637
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 27
+    swapIndex: 56
+    color:
+      serializedVersion: 2
+      rgba: 4285282408
+    name: Seance
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  layerData: {fileID: 11400000, guid: 2cdc9757d2e3bff4dac0c9ca4ac54f61, type: 2}
+  originalFrame: {fileID: 21300000, guid: fe9af76396e0e25448aed09ca49aabdd, type: 3}

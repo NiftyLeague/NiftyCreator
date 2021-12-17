@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8463451357830098457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8245733509257897072}
+  - component: {fileID: 1097746087905701848}
+  m_Layer: 0
+  m_Name: a_share_pants
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8245733509257897072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463451357830098457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1097746087905701848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8463451357830098457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 622
+  variationName: a_share_pants
+  characterType: 0
+  accessoryInfo:
+    name: SharePants
+    displayName: pants
+    layerName: a_share_pants
+    accessoryType: 3
+    characterType: 0
+    layer: 61
+  animationLayer: {fileID: 9010349224978466343, guid: 379bb17423f37474cbaf8d792f60ceee,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4282268697
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4281941619
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4281542306
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4282661860
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4285282408
+  - from:
+    - index: 24
+      swapIndex: 43
+      color:
+        serializedVersion: 2
+        rgba: 4282657574
+      name: Latin Charm
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors:
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  colors:
+  - serializedVersion: 2
+    rgba: 4282657574
+  originalColors:
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  layerData: {fileID: 11400000, guid: cefeb42fb560fd5439ee40bf681d219c, type: 2}
+  originalFrame: {fileID: 21300000, guid: 9b3d09b4e252e804a90bdf13eb963e9d, type: 3}

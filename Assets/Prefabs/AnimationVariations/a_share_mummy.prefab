@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6218027216068153357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5525539914397286170}
+  - component: {fileID: 5609361729985573128}
+  m_Layer: 0
+  m_Name: a_share_mummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5525539914397286170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6218027216068153357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5609361729985573128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6218027216068153357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 672
+  variationName: a_share_mummy
+  characterType: 0
+  accessoryInfo:
+    name: ShareMummy
+    displayName: mummy
+    layerName: a_share_mummy
+    accessoryType: 5
+    characterType: 0
+    layer: 53
+  animationLayer: {fileID: 9097942207105512089, guid: aeb93675d4a6fa04089388838c6f1dc0,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 4
+      swapIndex: 111
+      color:
+        serializedVersion: 2
+        rgba: 4283461560
+      name: Iced Tea
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+  - from:
+    - index: 4
+      swapIndex: 111
+      color:
+        serializedVersion: 2
+        rgba: 4283461560
+      name: Iced Tea
+    to:
+    - serializedVersion: 2
+      rgba: 4289385706
+  - from:
+    - index: 4
+      swapIndex: 111
+      color:
+        serializedVersion: 2
+        rgba: 4283461560
+      name: Iced Tea
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 4
+    swapIndex: 111
+    color:
+      serializedVersion: 2
+      rgba: 4283461560
+    name: Iced Tea
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4283461560
+  originalColors:
+  - index: 4
+    swapIndex: 111
+    color:
+      serializedVersion: 2
+      rgba: 4283461560
+    name: Iced Tea
+  layerData: {fileID: 11400000, guid: 4de4a5f62bfe79d40af504a616165402, type: 2}
+  originalFrame: {fileID: 21300000, guid: bc2f4c898a1353a468b2e931d5102568, type: 3}

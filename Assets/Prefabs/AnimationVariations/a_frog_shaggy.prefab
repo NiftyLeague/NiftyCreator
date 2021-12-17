@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5929157684406446801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3707019032739428137}
+  - component: {fileID: 8691482144791408982}
+  m_Layer: 0
+  m_Name: a_frog_shaggy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3707019032739428137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5929157684406446801}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8691482144791408982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5929157684406446801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 230
+  variationName: a_frog_shaggy
+  characterType: 5
+  accessoryInfo:
+    name: FrogShaggy
+    displayName: shaggy
+    layerName: a_frog_shaggy
+    accessoryType: 6
+    characterType: 5
+    layer: 31
+  animationLayer: {fileID: 403585789928624114, guid: 4eab5cfaa57b2e54b9d4bc6363fe0657,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4289385706
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4285703908
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4281941619
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 3
+    swapIndex: 166
+    color:
+      serializedVersion: 2
+      rgba: 4285703908
+    name: Sweet Curry
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4285703908
+  originalColors:
+  - index: 3
+    swapIndex: 166
+    color:
+      serializedVersion: 2
+      rgba: 4285703908
+    name: Sweet Curry
+  layerData: {fileID: 11400000, guid: 3f5628075cccb9841be29d447e9b63f4, type: 2}
+  originalFrame: {fileID: 21300000, guid: f0e1d2e7546840a419b70b2882bf3dce, type: 3}

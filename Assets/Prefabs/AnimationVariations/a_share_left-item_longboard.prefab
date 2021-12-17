@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4102557732862520670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1897207141741299572}
+  - component: {fileID: 3839701818365206559}
+  m_Layer: 0
+  m_Name: a_share_left-item_longboard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1897207141741299572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102557732862520670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3839701818365206559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4102557732862520670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 933
+  variationName: a_share_left-item_longboard
+  characterType: 0
+  accessoryInfo:
+    name: ShareLeftItemLongboard
+    displayName: left item longboard
+    layerName: a_share_left-item_longboard
+    accessoryType: 9
+    characterType: 0
+    layer: 11
+  animationLayer: {fileID: 2151022326798842710, guid: 746d8cc26268d644a96364441e0c301e,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 33
+      swapIndex: 90
+      color:
+        serializedVersion: 2
+        rgba: 4293155572
+      name: Lake Retba Pink
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 33
+      swapIndex: 90
+      color:
+        serializedVersion: 2
+        rgba: 4293155572
+      name: Lake Retba Pink
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4294915691
+  - from:
+    - index: 33
+      swapIndex: 90
+      color:
+        serializedVersion: 2
+        rgba: 4293155572
+      name: Lake Retba Pink
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4294305836
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 33
+      swapIndex: 90
+      color:
+        serializedVersion: 2
+        rgba: 4293155572
+      name: Lake Retba Pink
+    - index: 28
+      swapIndex: 80
+      color:
+        serializedVersion: 2
+        rgba: 4287123637
+      name: Signal Pink
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4283287395
+  palleteColors: []
+  colors: []
+  originalColors:
+  - index: 33
+    swapIndex: 90
+    color:
+      serializedVersion: 2
+      rgba: 4293155572
+    name: Lake Retba Pink
+  - index: 28
+    swapIndex: 80
+    color:
+      serializedVersion: 2
+      rgba: 4287123637
+    name: Signal Pink
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  layerData: {fileID: 11400000, guid: fed4060c1a7e92f48aeae2f6adf20147, type: 2}
+  originalFrame: {fileID: 21300000, guid: d3be546f7e5e5154b88e3d245d29f2dc, type: 3}

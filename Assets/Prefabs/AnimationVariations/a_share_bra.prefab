@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &964553193226378318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5529046885435227391}
+  - component: {fileID: 4314855297659748694}
+  m_Layer: 0
+  m_Name: a_share_bra
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5529046885435227391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964553193226378318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4314855297659748694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964553193226378318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 340
+  variationName: a_share_bra
+  characterType: 0
+  accessoryInfo:
+    name: ShareBra
+    displayName: bra
+    layerName: a_share_bra
+    accessoryType: 16
+    characterType: 0
+    layer: 58
+  animationLayer: {fileID: 6198675876344023450, guid: 62c4c75a7910e734ba87aa13d93674ba,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4287123637
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4290026379
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+  - from:
+    - index: 11
+      swapIndex: 231
+      color:
+        serializedVersion: 2
+        rgba: 4284606462
+      name: Primrose Path
+    to:
+    - serializedVersion: 2
+      rgba: 4288067560
+  palleteColors:
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  colors:
+  - serializedVersion: 2
+    rgba: 4284606462
+  originalColors:
+  - index: 11
+    swapIndex: 231
+    color:
+      serializedVersion: 2
+      rgba: 4284606462
+    name: Primrose Path
+  layerData: {fileID: 11400000, guid: 090a46f875efca148bd46df158fecb06, type: 2}
+  originalFrame: {fileID: 21300000, guid: f42fc83737500d44eb576d98d079a5b0, type: 3}

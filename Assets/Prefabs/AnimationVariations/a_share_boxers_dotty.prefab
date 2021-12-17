@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &493605364979552127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9156519087776568510}
+  - component: {fileID: 2128055397282108770}
+  m_Layer: 0
+  m_Name: a_share_boxers_dotty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9156519087776568510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493605364979552127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128055397282108770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493605364979552127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 565
+  variationName: a_share_boxers_dotty
+  characterType: 0
+  accessoryInfo:
+    name: ShareBoxersDotty
+    displayName: boxers dotty
+    layerName: a_share_boxers_dotty
+    accessoryType: 3
+    characterType: 0
+    layer: 61
+  animationLayer: {fileID: 9010349224978466343, guid: 379bb17423f37474cbaf8d792f60ceee,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4282646783
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4294901502
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4293155572
+  palleteColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4282646783
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  layerData: {fileID: 11400000, guid: c81c0c254707dbb46abb0dcf80ae0e66, type: 2}
+  originalFrame: {fileID: 21300000, guid: 7ebb31175ba7adc43905347b49604c7c, type: 3}

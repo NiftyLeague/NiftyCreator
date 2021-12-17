@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4253170445157132483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5017281338925602301}
+  - component: {fileID: 111383491125827507}
+  m_Layer: 0
+  m_Name: a_share_dino
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5017281338925602301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253170445157132483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &111383491125827507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253170445157132483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 524
+  variationName: a_share_dino
+  characterType: 0
+  accessoryInfo:
+    name: ShareDino
+    displayName: dino
+    layerName: a_share_dino
+    accessoryType: 14
+    characterType: 0
+    layer: 57
+  animationLayer: {fileID: 3271996236422129518, guid: 528552e43ccad894b8b4eba9dba4eee6,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4282943806
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4287123637
+    - serializedVersion: 2
+      rgba: 4283287395
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4284606462
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4285703908
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4293155572
+  - from:
+    - index: 13
+      swapIndex: 137
+      color:
+        serializedVersion: 2
+        rgba: 4282943806
+      name: Greenery
+    - index: 12
+      swapIndex: 199
+      color:
+        serializedVersion: 2
+        rgba: 4283287395
+      name: Range Land
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4280449015
+  palleteColors:
+  - index: 24
+    swapIndex: 43
+    color:
+      serializedVersion: 2
+      rgba: 4282657574
+    name: Latin Charm
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  colors:
+  - serializedVersion: 2
+    rgba: 4282657574
+  - serializedVersion: 2
+    rgba: 4282943806
+  - serializedVersion: 2
+    rgba: 4283287395
+  - serializedVersion: 2
+    rgba: 4294901502
+  originalColors:
+  - index: 13
+    swapIndex: 137
+    color:
+      serializedVersion: 2
+      rgba: 4282943806
+    name: Greenery
+  - index: 12
+    swapIndex: 199
+    color:
+      serializedVersion: 2
+      rgba: 4283287395
+    name: Range Land
+  layerData: {fileID: 11400000, guid: f3e4bfb044e187d43b5412361999b1d6, type: 2}
+  originalFrame: {fileID: 21300000, guid: 37be897b07c5cce45858e76160c27e1e, type: 3}

@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1024949563314596263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6296593177266446117}
+  - component: {fileID: 1058755613440337726}
+  m_Layer: 0
+  m_Name: a_human_beanie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6296593177266446117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024949563314596263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1058755613440337726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024949563314596263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 714
+  variationName: a_human_beanie
+  characterType: 6
+  accessoryInfo:
+    name: HumanBeanie
+    displayName: beanie
+    layerName: a_human_beanie
+    accessoryType: 8
+    characterType: 6
+    layer: 21
+  animationLayer: {fileID: 3206133455992358943, guid: e1ff767bc7b88664e90754278e16ed3d,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4281542306
+    - serializedVersion: 2
+      rgba: 4282661860
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4287129946
+    - serializedVersion: 2
+      rgba: 4284892218
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282268697
+    - serializedVersion: 2
+      rgba: 4282539046
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4290026379
+  - from:
+    - index: 25
+      swapIndex: 20
+      color:
+        serializedVersion: 2
+        rgba: 4280620056
+      name: River Styx
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    - index: 8
+      swapIndex: 59
+      color:
+        serializedVersion: 2
+        rgba: 4282661860
+      name: Vermilion Cinnabar
+    to:
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4280620056
+    - serializedVersion: 2
+      rgba: 4282657574
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  - index: 8
+    swapIndex: 59
+    color:
+      serializedVersion: 2
+      rgba: 4282661860
+    name: Vermilion Cinnabar
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281542306
+  - serializedVersion: 2
+    rgba: 4282661860
+  originalColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  - index: 8
+    swapIndex: 59
+    color:
+      serializedVersion: 2
+      rgba: 4282661860
+    name: Vermilion Cinnabar
+  layerData: {fileID: 11400000, guid: fb4beda646cd2534d9e97d906ac29421, type: 2}
+  originalFrame: {fileID: 21300000, guid: 099ebd589eb2a4647bf2384ebf3c0b08, type: 3}

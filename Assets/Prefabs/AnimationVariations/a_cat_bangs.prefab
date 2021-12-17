@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1189455320306517239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7966471303470145467}
+  - component: {fileID: 2480129700396154452}
+  m_Layer: 0
+  m_Name: a_cat_bangs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7966471303470145467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189455320306517239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2480129700396154452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189455320306517239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 157
+  variationName: a_cat_bangs
+  characterType: 3
+  accessoryInfo:
+    name: CatBangs
+    displayName: bangs
+    layerName: a_cat_bangs
+    accessoryType: 6
+    characterType: 3
+    layer: 36
+  animationLayer: {fileID: 7467193795995306154, guid: c4da370a41154ac4fa09ec0339f7ea96,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4289385706
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4285703908
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4283461560
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4281941619
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4294915691
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4293155572
+  - from:
+    - index: 3
+      swapIndex: 166
+      color:
+        serializedVersion: 2
+        rgba: 4285703908
+      name: Sweet Curry
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 3
+    swapIndex: 166
+    color:
+      serializedVersion: 2
+      rgba: 4285703908
+    name: Sweet Curry
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4285703908
+  originalColors:
+  - index: 3
+    swapIndex: 166
+    color:
+      serializedVersion: 2
+      rgba: 4285703908
+    name: Sweet Curry
+  layerData: {fileID: 11400000, guid: 9222d46bcf94ba14685ac7b7e11c2760, type: 2}
+  originalFrame: {fileID: 21300000, guid: 619df39b567b6304ba2384a6744a9ccc, type: 3}

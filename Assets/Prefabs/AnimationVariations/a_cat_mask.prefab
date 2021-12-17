@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7595703289525690531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7455041288697966041}
+  - component: {fileID: 1523270667569406054}
+  m_Layer: 0
+  m_Name: a_cat_mask
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7455041288697966041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7595703289525690531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1523270667569406054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7595703289525690531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 266
+  variationName: a_cat_mask
+  characterType: 3
+  accessoryInfo:
+    name: CatMask
+    displayName: mask
+    layerName: a_cat_mask
+    accessoryType: 10
+    characterType: 3
+    layer: 30
+  animationLayer: {fileID: 1128967078487993742, guid: 82d7b566aafc1ab4681f4cc5cc9741b8,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    - index: 18
+      swapIndex: 232
+      color:
+        serializedVersion: 2
+        rgba: 4294305836
+      name: Sparky Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4294305836
+  - from:
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    - index: 18
+      swapIndex: 232
+      color:
+        serializedVersion: 2
+        rgba: 4294305836
+      name: Sparky Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 17
+      swapIndex: 153
+      color:
+        serializedVersion: 2
+        rgba: 4292581632
+      name: Atmosphere
+    - index: 18
+      swapIndex: 232
+      color:
+        serializedVersion: 2
+        rgba: 4294305836
+      name: Sparky Blue
+    to:
+    - serializedVersion: 2
+      rgba: 4282657574
+    - serializedVersion: 2
+      rgba: 4284892218
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  - index: 18
+    swapIndex: 232
+    color:
+      serializedVersion: 2
+      rgba: 4294305836
+    name: Sparky Blue
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4292581632
+  - serializedVersion: 2
+    rgba: 4294305836
+  originalColors:
+  - index: 17
+    swapIndex: 153
+    color:
+      serializedVersion: 2
+      rgba: 4292581632
+    name: Atmosphere
+  - index: 18
+    swapIndex: 232
+    color:
+      serializedVersion: 2
+      rgba: 4294305836
+    name: Sparky Blue
+  layerData: {fileID: 11400000, guid: bc0c4ce8f55f1ba4383a60f359680a85, type: 2}
+  originalFrame: {fileID: 21300000, guid: 75f2bdf322648f24ab97535aefb19fba, type: 3}

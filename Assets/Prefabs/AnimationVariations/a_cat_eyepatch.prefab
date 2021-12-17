@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6975477196892368739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7554343710823632268}
+  - component: {fileID: 2046562693906058613}
+  m_Layer: 0
+  m_Name: a_cat_eyepatch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7554343710823632268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6975477196892368739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2046562693906058613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6975477196892368739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 758
+  variationName: a_cat_eyepatch
+  characterType: 3
+  accessoryInfo:
+    name: CatEyepatch
+    displayName: eyepatch
+    layerName: a_cat_eyepatch
+    accessoryType: 4
+    characterType: 3
+    layer: 18
+  animationLayer: {fileID: 3747207368380062185, guid: 926bbb585cb5a1f449e37bd7c6242c31,
+    type: 3}
+  colorVariations: []
+  palleteColors:
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  colors:
+  - serializedVersion: 2
+    rgba: 4280620056
+  originalColors: []
+  layerData: {fileID: 11400000, guid: ed0b30c12c0bf064491270d7886efacc, type: 2}
+  originalFrame: {fileID: 21300000, guid: 22bd47e15eae0a34ea2841764cec8e69, type: 3}

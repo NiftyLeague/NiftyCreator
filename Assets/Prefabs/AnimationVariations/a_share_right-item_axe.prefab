@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1138283158824414683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4012003507558598091}
+  - component: {fileID: 5857217742895500358}
+  m_Layer: 0
+  m_Name: a_share_right-item_axe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4012003507558598091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138283158824414683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5857217742895500358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138283158824414683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 977
+  variationName: a_share_right-item_axe
+  characterType: 0
+  accessoryInfo:
+    name: ShareRightItemAxe
+    displayName: right item axe
+    layerName: a_share_right-item_axe
+    accessoryType: 15
+    characterType: 0
+    layer: 12
+  animationLayer: {fileID: 2215853002290716580, guid: ebe642ad8a2d86841ba1236da079a2b5,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292660160
+    - serializedVersion: 2
+      rgba: 4290026379
+  - from:
+    - index: 19
+      swapIndex: 254
+      color:
+        serializedVersion: 2
+        rgba: 4294901502
+      name: White
+    - index: 20
+      swapIndex: 203
+      color:
+        serializedVersion: 2
+        rgba: 4292660160
+      name: Icy Brook
+    - index: 21
+      swapIndex: 155
+      color:
+        serializedVersion: 2
+        rgba: 4290026379
+      name: Blueberry Buckle
+    to:
+    - serializedVersion: 2
+      rgba: 4284606462
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4294901502
+  palleteColors: []
+  colors: []
+  originalColors:
+  - index: 19
+    swapIndex: 254
+    color:
+      serializedVersion: 2
+      rgba: 4294901502
+    name: White
+  - index: 20
+    swapIndex: 203
+    color:
+      serializedVersion: 2
+      rgba: 4292660160
+    name: Icy Brook
+  - index: 21
+    swapIndex: 155
+    color:
+      serializedVersion: 2
+      rgba: 4290026379
+    name: Blueberry Buckle
+  layerData: {fileID: 11400000, guid: 0146294f2773468468bc7a9c9ae93597, type: 2}
+  originalFrame: {fileID: 21300000, guid: d0fdcf7d6f5834540985f0d5d6d86b88, type: 3}

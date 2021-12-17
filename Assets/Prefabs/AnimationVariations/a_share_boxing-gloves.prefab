@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8139361428798286350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5508684877126320089}
+  - component: {fileID: 8510780502375846097}
+  m_Layer: 0
+  m_Name: a_share_boxing-gloves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5508684877126320089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139361428798286350}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8510780502375846097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8139361428798286350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b8a55406cc2dc458f9fc2e559cb1dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  traitId: 822
+  variationName: a_share_boxing-gloves
+  characterType: 0
+  accessoryInfo:
+    name: ShareBoxingGloves
+    displayName: boxing gloves
+    layerName: a_share_boxing-gloves
+    accessoryType: 7
+    characterType: 0
+    layer: 54
+  animationLayer: {fileID: 7465517810557985601, guid: ad3fcdf2f9c5863469d3c18a6eecb583,
+    type: 3}
+  colorVariations:
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    to:
+    - serializedVersion: 2
+      rgba: 4282646783
+    - serializedVersion: 2
+      rgba: 4281542306
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    to:
+    - serializedVersion: 2
+      rgba: 4294901502
+    - serializedVersion: 2
+      rgba: 4292660160
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    to:
+    - serializedVersion: 2
+      rgba: 4292581632
+    - serializedVersion: 2
+      rgba: 4287188498
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    to:
+    - serializedVersion: 2
+      rgba: 4281642750
+    - serializedVersion: 2
+      rgba: 4280449015
+  - from:
+    - index: 26
+      swapIndex: 0
+      color:
+        serializedVersion: 2
+        rgba: 4282646783
+      name: Cherry Soda
+    - index: 7
+      swapIndex: 38
+      color:
+        serializedVersion: 2
+        rgba: 4281542306
+      name: Japanese Carmine
+    to:
+    - serializedVersion: 2
+      rgba: 4284892218
+    - serializedVersion: 2
+      rgba: 4282657574
+  palleteColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  - index: 25
+    swapIndex: 20
+    color:
+      serializedVersion: 2
+      rgba: 4280620056
+    name: River Styx
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  colors:
+  - serializedVersion: 2
+    rgba: 4282646783
+  - serializedVersion: 2
+    rgba: 4280620056
+  - serializedVersion: 2
+    rgba: 4281542306
+  originalColors:
+  - index: 26
+    swapIndex: 0
+    color:
+      serializedVersion: 2
+      rgba: 4282646783
+    name: Cherry Soda
+  - index: 7
+    swapIndex: 38
+    color:
+      serializedVersion: 2
+      rgba: 4281542306
+    name: Japanese Carmine
+  layerData: {fileID: 11400000, guid: 5b17abc605716db44a875ae2e35caf29, type: 2}
+  originalFrame: {fileID: 21300000, guid: de48245756bf30a4292507ea44c36ecf, type: 3}
