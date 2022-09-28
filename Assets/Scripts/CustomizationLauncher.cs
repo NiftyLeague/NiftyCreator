@@ -90,7 +90,7 @@ public class CustomizationLauncher : MonoBehaviour
 
 	private void DisplayInitializationDialog()
 	{
-		CharacterCreatorLevel.DisplayTvTip("WE ARE SOLD OUT!\nALL 9900 DEGENS\nMINTED", 15f);
+		CharacterCreatorLevel.DisplayTvTip("HAPPY ANNIVERSARY DEGENS!!!", 15f);
 	}
 
 	private void GetRemovedTraits()
