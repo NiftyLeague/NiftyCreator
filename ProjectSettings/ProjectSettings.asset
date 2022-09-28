@@ -720,7 +720,8 @@ PlayerSettings:
   activeInputHandler: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
+  qualitySettingsNames:
+  - Fantastic
   projectName: 
   organizationId: 
   cloudEnabled: 0
