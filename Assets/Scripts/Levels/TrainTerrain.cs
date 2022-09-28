@@ -1,3 +1,4 @@
+using Beebyte.Obfuscator;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -61,6 +62,7 @@ public class TrainTerrain : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void ToggleTunnel()
 	{
 		Invoke(nameof(ToggleTunnel), isTunnel ? tunnelToggleTimes.x : tunnelToggleTimes.y);

@@ -1,3 +1,4 @@
+using Beebyte.Obfuscator;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections;
@@ -88,6 +89,7 @@ public class CustomizationLauncher : MonoBehaviour
 		return config;
 	}
 
+	[SkipRename]
 	private void DisplayInitializationDialog()
 	{
 		CharacterCreatorLevel.DisplayTvTip("HAPPY ANNIVERSARY DEGENS!!!", 15f);
@@ -99,6 +101,7 @@ public class CustomizationLauncher : MonoBehaviour
 		JSWrapper.GetRemovedTraits(gameObject.name, nameof(OnRemovedTraitsStringReady));
 	}
 
+	[SkipRename]
 	private void OnGetConfigurationResponse(string result)
 	{
 		CancelInvoke(nameof(DisplayInitializationDialog));
@@ -182,6 +185,7 @@ public class CustomizationLauncher : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void OnRemovedTraitsStringReady(string traitsStr)
 	{
 		traitsStr = traitsStr.Replace("[", "").Replace("]", "").Replace(" ", "");
@@ -224,11 +228,13 @@ public class CustomizationLauncher : MonoBehaviour
 		I.Invoke(nameof(StopRotatingPose), 1f);
 	}
 
+	[SkipRename]
 	private void StopRotatingPose()
 	{
 		CustomizationManager.SetActionState(0, true);
 	}
 
+	[SkipRename]
 	private void OnSubmitTraitsResponse(string result)
 	{
 		I.block.gameObject.SetActive(false);
@@ -267,6 +273,7 @@ public class CustomizationLauncher : MonoBehaviour
 
 #endif //#else //#if UNITY_STANDALONE
 
+	[SkipRename]
 	private void StartCustomization()
 	{
 #if !UNITY_STANDALONE || UNITY_EDITOR

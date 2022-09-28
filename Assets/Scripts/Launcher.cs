@@ -1,3 +1,4 @@
+using Beebyte.Obfuscator;
 using NaughtyAttributes;
 #if USE_NETHEREUM
 using Nethereum.Signer;
@@ -90,6 +91,7 @@ public class Launcher : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void StartAuthentication()
 	{
 		state = State.Authentication;
@@ -164,6 +166,7 @@ public class Launcher : MonoBehaviour
 		PlayerPrefs.Save();
 	}
 
+	[SkipRename]
 	private void StartConnection()
 	{
 		state = State.Connection;
@@ -174,6 +177,7 @@ public class Launcher : MonoBehaviour
 		connectionStartTime = Time.realtimeSinceStartup;
 	}
 
+	[SkipRename]
 	private void OnSignatureResponse(string result)
 	{
 		user = null;
@@ -245,6 +249,7 @@ public class Launcher : MonoBehaviour
 #endif //#if USE_NETHEREUM
 	}
 
+	[SkipRename]
 	private void OnAuthencationResponse(string result)
 	{
 		user = null;

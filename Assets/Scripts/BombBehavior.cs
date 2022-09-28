@@ -1,3 +1,4 @@
+using Beebyte.Obfuscator;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -109,7 +110,7 @@ public class BombBehavior : ThrowableBehavior
 		Explode();
 	}
 
-
+	[SkipRename]
 	private void Explode()
 	{
 		if (exploded)

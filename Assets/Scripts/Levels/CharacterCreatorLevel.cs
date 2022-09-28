@@ -5,6 +5,7 @@ using GraphQlClient.Core;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Beebyte.Obfuscator;
 
 public class CharacterCreatorLevel : MonoBehaviour
 {
@@ -302,6 +303,7 @@ public class CharacterCreatorLevel : MonoBehaviour
 		I.SetMintable(isUnique);
 	}
 
+	[SkipRename]
 	private void DisplayDuplicatedTip()
 	{
 		DisplayTvTip("This combination\nhas already been\nminted", -1f);
@@ -333,12 +335,14 @@ public class CharacterCreatorLevel : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void DoHideTv()
 	{
 		tvTween = new Tween<float>(tv.position.y, tvPositions.z, tvTweenDuration, tvTweenEaseType);
 		tvYTarget = tvPositions.z;
 	}
 
+	[SkipRename]
 	public static void HideTv()
 	{
 		I.DoHideTv();
@@ -395,6 +399,7 @@ public class CharacterCreatorLevel : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void UpdateMintLogo()
 	{
 		if (!minting && !mintLogo.enabled && animateMintLogo)
@@ -412,7 +417,7 @@ public class CharacterCreatorLevel : MonoBehaviour
 		CustomizationManager.onChange += OnCustomizationChange;
 	}
 
-
+	[SkipRename]
 	private void UpdateElectricity()
 	{
 		PlayAnimationWithProbability(topElectric, cableElectricityProbability);
@@ -458,6 +463,7 @@ public class CharacterCreatorLevel : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void UpdateTerminalGlow()
 	{
 		if (XRandom.NextFloat() < terminalFlickerProbability && satoshiState == SatoshiState.Type)
@@ -468,6 +474,7 @@ public class CharacterCreatorLevel : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void UpdateSatoshi()
 	{
 		switch (satoshiState)

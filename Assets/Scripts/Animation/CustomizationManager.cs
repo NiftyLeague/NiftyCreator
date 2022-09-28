@@ -1,3 +1,4 @@
+using Beebyte.Obfuscator;
 using NaughtyAttributes;
 using Newtonsoft.Json.Linq;
 using System;
@@ -141,6 +142,7 @@ public class CustomizationManager : MonoBehaviour
 #endif
 	}
 
+	[SkipRename]
 	private void CleaupUnusedFrames()
 	{
 		StartCoroutine(AnimationManager.CleanupUnusedFrames());
@@ -629,6 +631,7 @@ public class CustomizationManager : MonoBehaviour
 		}
 	}
 
+	[SkipRename]
 	private void SetUniqueness()
 	{
 #if !UNITY_STANDALONE || UNITY_EDITOR

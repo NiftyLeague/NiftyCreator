@@ -1,3 +1,4 @@
+using Beebyte.Obfuscator;
 using System;
 using UnityEngine;
 
@@ -32,6 +33,7 @@ public class MarsTerrain : MonoBehaviour
 		RunWormAttack();
 	}
 
+	[SkipRename]
 	private void StartWormAttack()
 	{
 		if (wormState == WormState.Idle)
